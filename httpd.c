@@ -27,7 +27,7 @@
 #include <stdlib.h>
 
 #define ISspace(x) isspace((int)(x))
-
+//开始阅读
 #define SERVER_STRING "Server: jdbhttpd/0.1.0\r\n"
 
 void accept_request(int);
