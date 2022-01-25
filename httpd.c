@@ -89,6 +89,7 @@ void accept_request(int client)
  }
  url[i] = '\0';
 
+//只处理了GET的query_string，POST的没管？
  if (strcasecmp(method, "GET") == 0)
  {
   query_string = url;
