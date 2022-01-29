@@ -496,8 +496,8 @@ int main(void)
    error_die("accept");
  accept_request(client_sock); 
 /*  if (pthread_create(&newthread , NULL, accept_request, client_sock) != 0)
-   perror("pthread_create");
- } */
+   perror("pthread_create"); */
+ }
 
  close(server_sock);
 
