@@ -477,7 +477,8 @@ int main(void)
 {
  int server_sock = -1;
  
- u_short port = 0;//系统自动分配端口
+//  u_short port = 0;//系统自动分配端口
+ u_short port = 37870;//手动分配端口37870
 
  int client_sock = -1;
  struct sockaddr_in client_name;
