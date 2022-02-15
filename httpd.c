@@ -402,6 +402,7 @@ void serve_file(int client, const char *filename)
  resource = fopen(filename, "r");
  if (resource == NULL)
   not_found(client);
+  return ;//resource == NULL时直接return，不然后面fclose(resource);中resource为NULL会出错
  else
  {
   headers(client, filename);
