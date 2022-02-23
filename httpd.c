@@ -476,6 +476,7 @@ void unimplemented(int client)
 
 int main(void)
 {
+  //TODO: 加线程池和日志功能
  int server_sock = -1;
  
 //  u_short port = 0;//系统自动分配端口
